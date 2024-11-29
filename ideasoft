@@ -1,0 +1,7 @@
+Siteye login olunduktan sonra Hesabım sayfasına gidilir ve adres defteri butonuna tıklanır. https://testcase.myideasoft.com/hesabim/adres-defteri
+Daha önce hiç adres eklenmemişse yeni adres ekle butonuna tıklanır ve adres girişi süreci başlatılır.
+Açılan ekranda Adres İsmi - Adı Soyadı - Ülke Şehir - İlçe - Telefon - Cep Telefonu - TC Kimlik No ve Adres alanlarına ilgili veri girişleri sağlanarak Kaydet butonu tıklanır.
+Giriş yapılan adresin ekrana hem teslimat hemde fatura adresi olarak geldiği görülür.
+Teslimat ve fatura adreslerinin altında düzenle ve sil butonları yer alır
+Düzenle yapıldığında adres tipi alanına görüntülenmelidir. Bu alanda düzenlenen adresin teslimat veya fatura adresi olup olmadığı seçimi yapılmalıdır.
+Yeni adres eklenmesi istendiğin fatura adresi girişlerinde Unvan giriş alanı bulunmalıdır.
