@@ -1,0 +1,21 @@
+MANUEL TEST CASE
+https://testcase.myideasoft.com/ adresinden siteye login olunduktan sonra header da yer alan menüden Hesabım sayfasına gidilir ve adres defteri butonuna tıklanır. 
+https://testcase.myideasoft.com/hesabim/adres-defteri sayfasına başarıyla girildiği görülür.
+Mevcutta adres eklememesi yapılmamış ise yeni adres ekle butonuna tıklanır ve adres girişi süreci başlatılır. 
+Açılan ekranda Adres İsmi - Adı Soyadı - Ülke Şehir - İlçe - Telefon - Cep Telefonu - TC Kimlik No ve Adres alanlarına ilgili veri girişleri sağlanarak Kaydet butonu tıklanır.
+Giriş yapılan adresin ekrana hem teslimat hemde fatura adresi olarak başarılı şekilde geldiği görülür.
+Teslimat ve fatura adreslerinin altında düzenle ve sil butonları yer alır.
+Düzenle butonuna tıklandığında açılan ekranda diğer ekrandan farklı olarak adres tipi alanına görüntülenmelidir. 
+Bu alanda düzenlenen adresin teslimat veya fatura adresi olup olmadığı seçimi yapılmalıdır.
+Sisteme birden farklı adres eklenmesi durumunda Adres tipinden fatura veya teslimat olarak başarılı şekilde değişim yapıldığı görülür.
+Tek adres eklenmesi durumunda adres tipinin değiştirilemediği görülür.
+Sil butonuna tıklandığında açılan popup ekranda "Seçili adresi silmek istediğinizden emin misiniz?" uyarısı görülür altında iptal ve tamam butonları yer alır.
+İptal butonu ile talepten vazgeçimi başarıyla yapılır.
+Yeni bir fatura adresi eklenmek istediğinde yeni adres ekle butonuna tıklanır.
+Adres tipinden fatura adresi seçimi yapılır.
+Fatura türü alanından bireysel ve kurumsal seçimleri yapılabilir.
+Kurumsal checkbox seçimi yapıldığında ekrana ek olarak vergi no ve vergi dairesi giriş alanları ile birlikte e-fatura kullanımı radio butonu gelir.
+TC kimlik no alanı pasife düşer. Vergi no, vergi dairesi alanları girişi yapılıp kaydet butonuna tıklanır.
+
+BUG
+Kurumsal fatura adresi girişlerinde Unvan giriş alanı bulunmuyor. Ad Soyad alanları yer alıyor. Bu alanında pasife düşerek Unvan alanı gelmesi beklenir.
